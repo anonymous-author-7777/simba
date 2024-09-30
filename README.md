@@ -7,7 +7,8 @@
 ```
 cd deps
 docker build -t scale_rl .
-docker run -i -d -gpus all -t scale_rl
+cd ../
+docker run -i -d --gpus all -v .:/home/user/scale_rl -t scale_rl
 docker exec -it <image_id> /bin/bash
 ```
 
