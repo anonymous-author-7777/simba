@@ -6,6 +6,7 @@ project_name: 'simba'
 group_name: 'test'
 exp_name: 'test'
 seed: 0
+server: 'local'
 
 ##################################################################################
 # Training

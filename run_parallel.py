@@ -57,8 +57,8 @@ if __name__ == "__main__":
 
     # import library after CUDA_VISIBLE_DEVICES operation
     from scale_rl.envs.dmc import DMC_EASY_MEDIUM, DMC_HARD
-    from scale_rl.envs.humanoid_bench import HB_LOCOMOTION_NOHAND
-    from scale_rl.envs.myosuite import MYOSUITE_TASKS
+    #from scale_rl.envs.humanoid_bench import HB_LOCOMOTION_NOHAND
+    #from scale_rl.envs.myosuite import MYOSUITE_TASKS
 
     env_type = args.pop("env_type")
     if env_type == "dmc_em":
